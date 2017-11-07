@@ -37,3 +37,7 @@ p, li
 	font-family: Raleway, serif;
 	text-align: justify;
 }
+body
+{
+    background-image: url("pic/polygon_gris.png");
+}
