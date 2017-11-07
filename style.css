@@ -14,15 +14,10 @@ h1
 }
 h2
 {
+	margin-left:25%;
 	font-size: :1.3em;
 	font-family: Ralewaybold, serif;
 	text-align: justify;
-}
-#presentation
-{
-	font-size: 1em;
-	text-align: center;
-
 }
 
 .date
@@ -31,13 +26,23 @@ h2
 	font-family: Ralewaybold, serif;
 }
 
-p, li
+#lien
 {
+	font-size: 1em;
+	text-align: center;
+}
+li
+{
+	margin-left:25%;
+	margin-right:25%;
 	font-size: 1em;
 	font-family: Raleway, serif;
 	text-align: justify;
 }
-body
+#presentation
 {
-    background-image: url("pic/polygon_gris.png");
+	/*margin-left:25%;*/
+	font-size: 1em;
+	font-family: Raleway, serif;
+	text-align: center;
 }
