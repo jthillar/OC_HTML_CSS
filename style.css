@@ -1,16 +1,39 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700");
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/raleway/Raleway-Regular.ttf');
+}
+@font-face {
+	font-family: 'Ralewaybold';
+	src: url('font/raleway/Raleway-Bold.ttf');
+}
 h1
 {
     font-size: 1.5;
-	font-family: Raleway, serif;
+	font-family: Ralewaybold, serif;
+	text-align: center;
 }
 h2
 {
 	font-size: :1.3em;
-	font-family: Raleway, serif;
+	font-family: Ralewaybold, serif;
+	text-align: justify;
 }
+#presentation
+{
+	font-size: 1em;
+	text-align: center;
+
+}
+
+.date
+{
+	font-size: 1em;
+	font-family: Ralewaybold, serif;
+}
+
 p, li
 {
 	font-size: 1em;
 	font-family: Raleway, serif;
+	text-align: justify;
 }
