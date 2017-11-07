@@ -14,7 +14,7 @@ h1
 }
 h2
 {
-	margin-left:25%;
+	margin-left: 25%;
 	font-size: :1.3em;
 	font-family: Ralewaybold, serif;
 	text-align: justify;
@@ -33,21 +33,32 @@ h2
 }
 li
 {
-	margin-left:25%;
-	margin-right:25%;
+	margin-left: 25%;
+	margin-right: 25%;
 	font-size: 1em;
 	font-family: Raleway, serif;
 	text-align: justify;
 }
 #presentation
 {
-	/*margin-left:25%;*/
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 1em;
 	font-family: Raleway, serif;
 	text-align: center;
 }
 
-body
+
+
+.imageContainer
 {
-	background-color: #DFF1F7;
+	display: flex;
+	margin:auto;
+	justify-content: center;
+    align-items: center;
+	background-color:red;
+	width:150px;
+	height:150px;
+	border-radius:100%;
+	overflow: hidden;
 }
