@@ -11,7 +11,7 @@ h1
     font-size: 1.5;
 	border-bottom: 2px black solid;
 	width:100%;
-	min-width: 400px;
+	min-width: 600px;
 	padding-bottom: 15px;
 	font-family: Ralewaybold, serif;
 	text-align: center;
@@ -67,7 +67,7 @@ body
 {
 	margin: auto;
 	width: 70%;
-	min-width: 400px;
+	min-width: 600px;
 	text-align: center;
 	font-family: Raleway, serif;
 	color: black;
