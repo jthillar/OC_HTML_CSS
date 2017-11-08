@@ -21,6 +21,7 @@ h2
 	font-size: :1.3em;
 	font-family: Ralewaybold, serif;
 	text-align: justify;
+	margin-bottom: 20px;
 }
 
 .date
@@ -38,8 +39,8 @@ h2
 
 li
 {
-	padding: 5px;
-	margin: 5px;
+	padding-bottom: : 6px;
+	margin-bottom: 6px;
 	font-size: 1em;
 	font-family: Raleway, serif;
 	text-align: justify;
