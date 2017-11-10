@@ -112,8 +112,10 @@ body
 }
 
 section{
-	border-bottom: 1px #696969 solid;
+	border-bottom: 0.1px #696969 solid;
 	width: 100%;
+	border-color: #E3E3E3;
+
 }
 
 a
