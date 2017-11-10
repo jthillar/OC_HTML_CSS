@@ -8,14 +8,34 @@
 }
 h1
 {
-    font-size: 1.5;
-	border-bottom: 2px black solid;
+    font-size: 3em;
+	border-bottom: 2px white solid;
 	width:100%;
 	min-width: 600px;
 	padding-bottom: 15px;
-	font-family: Ralewaybold, serif;
+	font-family: Raleway, serif;
 	text-align: center;
+	color:white;
 }
+
+.presentation
+{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	font-family: Raleway, serif;
+	color: white;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#lienpres
+{
+	font-family: Raleway, serif;
+	color: white;
+
+}
+
 h2
 {
 	font-family: Ralewaybold, serif;
@@ -35,17 +55,21 @@ h3
 
 .contact
 {
+	margin-top: 4px;
 	text-align: center;
 }
 
 .imagelink
 {
-	text-align: center;
-
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
 }
 
 li
 {
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 6px;
 	margin-bottom: 6px;
 	text-align: justify;
@@ -55,31 +79,47 @@ li
 .souslist
 {
 	list-style: square;
-}
-
-#presentation
-{
+	text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1em;
-	font-family: Raleway, serif;
-	text-align: center;
-	padding-bottom: 15px;
+
 }
+
 
 body
 {
+	font-size: 1.1em;
 	font-family: Raleway, serif;
 	margin: auto;
-	width: 70%;
-	min-width: 600px;
-	color: black;
+	margin-left: 15%;
+	margin-right: 15%;
+	/*max-width: 1000px;*/
+	min-width: 800px;
+	color: 	#696969;
+	background-color: #383838;
+	background-size: cover;
+}
+
+#corp
+{
+	background-color: white;
+	padding-left: 13%;
+	padding-right: 15%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	margin-top: 5%;
+	border-radius:1%;
+}
+
+section{
+	border-bottom: 1px #696969 solid;
+	width: 100%;
 }
 
 a
 {
 	text-decoration:none;
-	color:black;
+	color:#696969;
 }
 a:hover
 {
@@ -88,7 +128,7 @@ a:hover
 
 a:visited
 {
-	color:black;
+	color:#696969;
 }
 
 .imageContainer
