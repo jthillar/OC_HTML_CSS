@@ -1,3 +1,7 @@
+/****************************************************************/
+/*					NOUVELLES POLICES							*/
+/****************************************************************/
+
 @font-face {
     font-family: 'Raleway';
     src: url('font/raleway/Raleway-Regular.ttf');
@@ -5,6 +9,42 @@
 @font-face {
 	font-family: 'Ralewaybold';
 	src: url('font/raleway/Raleway-Bold.ttf');
+}
+
+
+body
+{
+	font-size: 1.1em;
+	font-family: Raleway, serif;
+	margin: auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	/*max-width: 1000px;*/
+	/*min-width: 800px;*/
+	color: 	#696969;
+	background-color: #383838;
+	background-size: cover;
+}
+
+#corp
+{
+	background-color: white;
+	padding-left: 13%;
+	padding-right: 15%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	margin-top: 5%;
+	border-radius:1%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section{
+	border-bottom: 0.1px #696969 solid;
+	width: 100%;
+	border-color: #E3E3E3;
+
 }
 h1
 {
@@ -87,40 +127,6 @@ li
 }
 
 
-body
-{
-	font-size: 1.1em;
-	font-family: Raleway, serif;
-	margin: auto;
-	margin-left: 15%;
-	margin-right: 15%;
-	/*max-width: 1000px;*/
-	min-width: 800px;
-	color: 	#696969;
-	background-color: #383838;
-	background-size: cover;
-}
-
-#corp
-{
-	background-color: white;
-	padding-left: 13%;
-	padding-right: 15%;
-	padding-bottom: 5%;
-	padding-top: 5%;
-	margin-top: 5%;
-	border-radius:1%;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-section{
-	border-bottom: 0.1px #696969 solid;
-	width: 100%;
-	border-color: #E3E3E3;
-
-}
 
 a
 {
